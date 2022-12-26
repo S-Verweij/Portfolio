@@ -177,7 +177,8 @@ transform: scale(1,1);
     clear: both;
     float: right;
 }
-.Ryuji {
+.Selfie
+ {
     width: 36%;
     margin: 5%;
     margin-left: 34%;
@@ -221,7 +222,7 @@ transform: scale(1,1);
 }
 .Haru {
     width: 38%;
-    height: 430px;
+    height: 450px;
     margin: 5%;
     border: 2px solid black;
     border-radius: 50px;
@@ -316,7 +317,8 @@ transform: scale(1,1);
 /*Responsive voor klein scherm: Voornamelijk Lay-Out*/
 
 @media screen and (max-width: 1120px) {
-    .Ann, .Haru, .Ryuji, .Sumire {
+    .Ann, .Haru, .Selfie
+    , .Sumire {
         display: none;
       }
     #Start {
@@ -343,3 +345,14 @@ transform: scale(1,1);
     }
 }
 
+/*Social Media*/
+
+.Social-Media {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Contact-Info {
+   border: 5px solid black;
+   border-radius: 15%;
+}
