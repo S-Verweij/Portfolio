@@ -204,10 +204,10 @@ transform: scale(1,1);
     width: 36%;
     height: 450px;
     margin: 5%;
+    margin-left: 10.3%;
     border: 2px solid black;
     border-radius: 50px;
     display: inline-block;
-    float: right;
 }
 
 #Projects {
@@ -217,7 +217,7 @@ transform: scale(1,1);
     border-radius: 50px;
     margin: 5%;
     width: 90%;
-    height: 100%;
+    height: auto;
     clear: both; 
 }
 .Haru {
@@ -227,7 +227,6 @@ transform: scale(1,1);
     border: 2px solid black;
     border-radius: 50px;
     display: inline-block;
-    float: left;
 }
 
 #Contact {
@@ -333,6 +332,7 @@ transform: scale(1,1);
         float: left;
         margin-left: 34.5%;
         text-align: center;
+        width: 50%;
     }
     .MyContacts {
         margin: 0%;
@@ -342,6 +342,11 @@ transform: scale(1,1);
         height: 80px;
         float: left;
         margin-left: 8%;
+    }
+
+    .project_card {
+        clear: both;
+       
     }
 }
 
@@ -356,3 +361,30 @@ transform: scale(1,1);
    border: 5px solid black;
    border-radius: 15%;
 }
+
+/*Projecten / Cards*/
+
+.card_wrapper {
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}   
+
+.project_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.4s;
+    width: 300px;
+    background: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Persona 5-3';
+    float: left;
+    margin: 100px;
+}
+
+.project_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+ .container {
+    padding: 2px 16px;
+ }
